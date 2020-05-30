@@ -1,0 +1,6 @@
+Die Oberfläche für die Verwaltung ist mithilfe der Java IDE BlueJ auf MacOS erstellt worden. Demnach bietet sich die beste User-Experience auf diesem Betriebssystem.
+Um die Datenbank (database.db) mit der Java Oberfläche zu verknüpfen, ist das Hinzufügen der sqlite-jbdc.jar Bibliothek nötig.
+Über eine DBHelper Klasse wird die Verbindung zur Datenbank hergestellt und anschließend geschlossen, nach einer erfolgreichen Abfrage der Datenbank über die Java Oberfläche.
+   
+Mit der HinzufuegenGUI kann ein Fenster erzeugt werden, auf welchem man alle nötigen persönlichen Daten des hinzuzufügenden Schülers und seines Erziehungsberechtigten einfügen kann. Anhand von ActionListenern werden alle Eingaben nach dem Drücken des „Fertig“-Knopfes in mehrere String Variablen überführt. Danach werden diese Variablen zu einer großen Variable zusammengeführt und als String über einen INSERT Befehl in der Datenbank abgespeichert.
+Das Fenster adaptiert sich automatisch an die vertikale Bildschirmgröße des Computermonitors. Scrolldown-Menüs erleichtern die Eingabe.
